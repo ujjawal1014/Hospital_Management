@@ -10,7 +10,7 @@ export default function Navbar() {
     <>
       <div className="Navbar">
         <Navbar_Logo image={image} />
-        <div className="all_links">
+        <div className="Navbar_all_links">
           <Navbar_Links />
           <Navbar_Dropdown />
           <Navbar_Dropdown />

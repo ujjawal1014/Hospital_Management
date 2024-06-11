@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar_Logo */
+
+
+.Navbar_Logo img{
+    width: 4rem;
+}
