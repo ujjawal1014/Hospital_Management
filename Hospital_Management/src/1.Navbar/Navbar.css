@@ -3,8 +3,38 @@
     padding: 0;
 }
 
-/* Navbar_Logo */
 
+/*navabr menu backgroundP*/
+
+.menu {
+    background-color: rgb(59, 22, 94);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 5rem;
+}
+
+.Navbar_Links ul {
+    display: flex;
+    list-style: none;
+}
+
+.Navbar_Links ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.Navbar_Links ul li a:hover {
+    background-color: #ac9898;
+    border-radius: 7px;
+    color: rgb(22, 7, 36);
+}
+
+/* Navbar_Logo */
 
 .Navbar_Logo img{
     width: 4rem;
