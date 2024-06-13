@@ -6,9 +6,9 @@
 /* Navbar_Links */
 .Navbar_Links a{
     text-decoration: none;
-    font-size: 1.7em;
-    font-weight: 800;
-    color: #F0E329;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #ece35e;
     opacity: 0.7;
 }
 .Navbar_Links a:hover{
@@ -18,7 +18,7 @@
 .Navbar{
     display: flex;
     width: 100%;
-    background-color: #28BBF0;
+    background-color: #2b7a97;
     /* margin-bottom: 1em; */
 }
 .Navbar_all_links{
