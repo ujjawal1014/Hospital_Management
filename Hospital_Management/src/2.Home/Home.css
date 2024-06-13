@@ -12,18 +12,18 @@
 }
 
 .Home_Arrow_Right {
-    font-size: 6em;
+    font-size: 4em;
     position: absolute;
     top: 45%;
     right: 0%;
-    color: aliceblue;
+    color: rgb(245, 247, 248);
 }
 
 .Home_Arrow_Left {
-    font-size: 6em;
+    font-size: 4em;
     position: absolute;
     top: 45%;
     left: 0%;
-    color: aliceblue;
+    color: rgb(244, 249, 253);
 }
 

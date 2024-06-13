@@ -10,9 +10,9 @@
 /* Navbar_Links */
 .Navbar_Links a {
     text-decoration: none;
-    font-size: 1.7em;
-    font-weight: 800;
-    color: #F0E329;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #ece35e;
     opacity: 0.7;
 }
 
@@ -23,10 +23,13 @@
 .Navbar {
     display: flex;
     width: 100%;
+    
     /* width: 96%;
     margin-left: 2%;
     margin-right: 2%; */
     background-color: #7400b8;
+    /* background-color: #2b7a97; */
+  
     /* margin-bottom: 1em; */
 }
 
