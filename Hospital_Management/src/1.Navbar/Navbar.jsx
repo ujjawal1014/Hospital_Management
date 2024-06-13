@@ -15,7 +15,7 @@ export default function Navbar() {
           <Navbar_Links Link_Name={"Center of Excellence"} />
           <Navbar_Links Link_Name={"Academic And Research"} />
           <Navbar_Links Link_Name={"Emergency Case"} />
-          <Navbar_Links Link_Name={"Contact Us"} />
+          <Navbar_Links Link_Name={"Contact us"} />
           {/* <Navbar_Dropdown
             Navbar_Dropdown_Heading={"Center of Excellence"}
             Navbar_Dropdown_Link1={"Link1"}

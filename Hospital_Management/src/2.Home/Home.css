@@ -1,0 +1,26 @@
+.Home {
+    width: 100%;
+    height: 40rem;
+}
+
+.Home_Image {
+    width: 100%;
+    height: 100%;
+}
+
+.Home_Arrow_Right {
+    font-size: 6em;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    color: aliceblue;
+}
+
+.Home_Arrow_Left {
+    font-size: 6em;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    color: aliceblue;
+}
+
