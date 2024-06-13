@@ -1,0 +1,30 @@
+/* Services */
+.Services {
+    width: 100%;
+    text-align: center;
+}
+
+/* Services_Card */
+.Services_Card img {
+    height: 23rem;
+    width: 23rem;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.Services_Card img:hover {
+    box-shadow: 10px 10px 10px rgba(0, 143, 168, 0.6);
+}
+
+/* All_Services_Card */
+.All_Services_Card {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Services_Heading */
+.Services_Heading h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+
+}
