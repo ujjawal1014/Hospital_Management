@@ -1,27 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
+
+
 }
 
+
+
 /* Navbar_Links */
-.Navbar_Links a{
+.Navbar_Links a {
     text-decoration: none;
     font-size: 1.7em;
     font-weight: 800;
     color: #F0E329;
     opacity: 0.7;
 }
-.Navbar_Links a:hover{
+
+.Navbar_Links a:hover {
     opacity: 1;
 }
 
-.Navbar{
+.Navbar {
     display: flex;
     width: 100%;
-    background-color: #28BBF0;
+    /* width: 96%;
+    margin-left: 2%;
+    margin-right: 2%; */
+    background-color: #7400b8;
     /* margin-bottom: 1em; */
 }
-.Navbar_all_links{
+
+.Navbar_all_links {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -62,10 +71,10 @@
 
 /* Navbar_Logo */
 
-.Navbar_Logo img{
+.Navbar_Logo img {
     width: 4.5rem;
     display: flex;
     align-items: center;
     align-self: center;
     justify-content: center;
-} 
+}
