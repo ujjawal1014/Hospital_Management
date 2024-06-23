@@ -5,26 +5,30 @@
     margin-left: 2%;
     margin-right: 2%; */
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .Home_Image {
-    width: 100%;
+    width: 95%;
     height: 100%;
+    text-align: center;
+    border-radius: 50%;
+    /* border-top-left-radius: 20%; */
 }
 
 .Home_Arrow_Right {
     font-size: 4em;
     position: absolute;
-    top: 40%;
-    right: 0%;
+    top: 44%;
+    right: 5%;
     color: rgb(245, 247, 248);
 }
 
 .Home_Arrow_Left {
     font-size: 4em;
     position: absolute;
-    top: 40%;
-    left: 0%;
+    top: 44%;
+    left: 5%;
     color: rgb(244, 249, 253);
 }
 

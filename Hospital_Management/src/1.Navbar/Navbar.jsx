@@ -9,33 +9,18 @@ export default function Navbar() {
   return (
     <>
       <div className="Navbar">
-        <Navbar_Logo image={image} />
-        <div className="Navbar_all_links">
-          <Navbar_Links Link_Name={"Home"} />
-          <Navbar_Links Link_Name={"Center of Excellence"} />
-          <Navbar_Links Link_Name={"Academic And Research"} />
-          <Navbar_Links Link_Name={"Emergency Case"} />
-          <Navbar_Links Link_Name={"Contact us"} />
-          {/* <Navbar_Dropdown
-            Navbar_Dropdown_Heading={"Center of Excellence"}
-            Navbar_Dropdown_Link1={"Link1"}
-            Navbar_Dropdown_Link2={"Link2"}
-            Navbar_Dropdown_Link3={"Link3"}
-          />
-          <Navbar_Dropdown
-            Navbar_Dropdown_Heading={"Center of Excellence"}
-            Navbar_Dropdown_Link1={"Link1"}
-            Navbar_Dropdown_Link2={"Link2"}
-            Navbar_Dropdown_Link3={"Link3"}
-          />
-          <Navbar_Dropdown
-            Navbar_Dropdown_Heading={"Center of Excellence"}
-            Navbar_Dropdown_Link1={"Link1"}
-            Navbar_Dropdown_Link2={"Link2"}
-            Navbar_Dropdown_Link3={"Link3"}
-          /> */}
-
-          <Navbar_Links />
+        <div className="Navbar_Content">
+          <div className="Navbar_Waste_Box_Left"></div>
+          <div className="Navbar_all_links">
+            <Navbar_Links Link_Name={"Home"} />
+            <Navbar_Links Link_Name={"Center of Excellence"} />
+          </div>
+          <Navbar_Logo className="Navbar_Logo_Center" image={image} />
+          <div className="Navbar_all_links">
+            <Navbar_Links Link_Name={"Academic And Research"} />
+            <Navbar_Links Link_Name={"Emergency Case"} />
+          </div>
+          <div className="Navbar_Waste_Box_Right"></div>
         </div>
       </div>
     </>
